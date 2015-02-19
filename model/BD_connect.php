@@ -1,7 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Hibiki
- * Date: 19.02.2015
- * Time: 19:22
- */ 
+function BD_connect() {
+    mysql_connect('localhost', 'root', '');
+    mysql_select_db('News');
+}
+
+function BD_query() {
+    BD_connect();
+    return mysql_query('SELECT * FROM News');
+}
