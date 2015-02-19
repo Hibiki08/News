@@ -19,5 +19,23 @@
             </label><br/>
             <input type="submit"/>
         </form>
+        <?php
+        include '..\model\BD_connect.php';
+        ?>
+        <ul>
+            <?php
+            $array_BD = Array_BD();
+            foreach ($array_BD as $values) { ?>
+
+                <li>
+                    <a href="">
+                        <?php echo $values['Name']; ?>
+                    </a>
+                </li>
+
+            <?php }
+
+            ?>
+        </ul>
     </body>
 </html>
