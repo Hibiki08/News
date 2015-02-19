@@ -1,7 +1,2 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Hibiki
- * Date: 19.02.2015
- * Time: 20:53
- */ 
+include 'BD_connect.php';
