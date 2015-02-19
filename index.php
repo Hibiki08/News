@@ -1,7 +1,2 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Hibiki
- * Date: 19.02.2015
- * Time: 18:37
- */ 
+include __DIR__ . '\view\index.php';
