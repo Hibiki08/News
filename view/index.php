@@ -1,7 +1,9 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Hibiki
- * Date: 19.02.2015
- * Time: 18:41
- */ 
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+    
+    </body>
+</html>
