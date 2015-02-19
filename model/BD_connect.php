@@ -1,7 +1,7 @@
 <?php
 function BD_connect() {
     mysql_connect('localhost', 'root', '');
-    mysql_select_db('News');
+    mysql_select_db('ШП');
 }
 
 function BD_query() {
