@@ -1,5 +1,5 @@
 <?php
-include '..\model\once_news.php';
+include 'model\once_news.php';
 ?>
 
 <html>
