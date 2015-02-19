@@ -1,3 +1,7 @@
+<?php
+include '..\model\once_news.php';
+?>
+
 <html>
     <head>
         <title></title>
