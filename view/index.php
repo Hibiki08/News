@@ -1,3 +1,7 @@
+<?php
+include '\model\BD_connect.php';
+?>
+
 <html>
     <head>
         <title></title>
@@ -19,9 +23,7 @@
             </label><br/>
             <input type="submit"/>
         </form>
-        <?php
-        include '..\model\BD_connect.php';
-        ?>
+
         <ul>
             <?php
             $array_BD = Array_BD();
