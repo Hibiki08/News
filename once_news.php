@@ -1,2 +1,2 @@
 <?php
-include __DIR__ . '\view\once.php';
+include 'view\once_news.php';
