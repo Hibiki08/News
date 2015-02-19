@@ -27,11 +27,10 @@ include '\model\BD_connect.php';
         <ul>
             <?php
             $array_BD = Array_BD();
-            foreach ($array_BD as $values) {
-                $_GET['id'] = $values['id']; ?>
+            foreach ($array_BD as $values) { ?>
 
                 <li>
-                    <a href="once_news.php?id=<?php echo $_GET['id']; ?>">
+                    <a href="once_news.php?id=<?php echo $values['id']; ?>">
                         <?php echo $values['Name']; ?>
                     </a>
                 </li>
