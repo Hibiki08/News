@@ -14,5 +14,6 @@ $values = BD_query();
 while (($values1 = mysql_fetch_array($values)) !== false) {
     $array_BD[] = $values1;
     }
+    mysql_close();
     return $array_BD;
 }
