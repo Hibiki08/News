@@ -6,7 +6,7 @@ function BD_connect() {
 
 function BD_query() {
     BD_connect();
-    return mysql_query('SELECT * FROM News');
+    return mysql_query('SELECT *FROM News ORDER BY Date DESC');
 }
 
 function Array_BD() {
@@ -14,6 +14,5 @@ $values = BD_query();
 while (($values1 = mysql_fetch_array($values)) !== false) {
     $array_BD[] = $values1;
     }
-    mysql_close();
     return $array_BD;
 }
