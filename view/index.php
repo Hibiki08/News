@@ -1,6 +1,6 @@
 <?php
-include '\model\BD_connect.php';
-include '\model\add_news.php';
+include_once '\model\BD_connect.php';
+include_once '\model\add_news.php';
 ?>
 
 <html>
