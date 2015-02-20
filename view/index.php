@@ -8,18 +8,18 @@ include '\model\BD_connect.php';
         <meta charset="utf-8"/>
     </head>
     <body>
-        <form method="post" action="">
+        <form method="post" action="model\add_news.php">
             <label>
                 Название:
             <input type="text" name="name"/>
             </label><br/>
             <label>
                 Ингредиенты:
-            <textarea></textarea>
+            <textarea name="ingredients"></textarea>
             </label><br/>
             <label>
                 Приготовление:
-            <textarea></textarea>
+            <textarea name="cook"></textarea>
             </label><br/>
             <input type="submit"/>
         </form>
