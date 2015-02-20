@@ -14,10 +14,14 @@ if ((!empty($_POST['name'])) &&
     (Name, Ingredients, Cook)
     VALUES
     ('$name', '$ingredients', '$cook')");
+    $_POST = []; ?>
+    <p>Рецепт успешно добавлен!</p>
+
+    <?php
 }
 elseif ((!empty($_POST)) &&
     isset($_POST)) {
-    header('Location:'. __DIR__ . '..\index.php'); ?>
+    $_POST = []; ?>
     <p>Не все поля заполнены!</p>
 <?php
 }
